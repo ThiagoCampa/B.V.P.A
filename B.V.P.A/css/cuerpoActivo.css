@@ -1,0 +1,153 @@
+body {
+    background-color: gray;
+}
+
+header{
+    background-color: red;
+    width: auto;
+}
+
+.logo{
+    max-width: 130px; /* Ajusta el tamaño según tus necesidades */
+    height: auto; /* Mantiene la proporción de aspecto */
+}
+
+.frase-header{
+    font-size: 50px;
+    margin-left: 300px;
+    color: aliceblue;
+    margin-top: -140px;
+}
+
+.navbar {
+    /*recuadro negro donde esta boton "INFORMES"*/
+    width: auto;
+    background-color: rgb(39, 37, 37);
+    display: flex;
+}
+
+.consultar {
+    font-size: 20px;
+    color: aliceblue;
+    margin-left: 5px;
+}
+
+.botones {
+    list-style: none;
+    margin-left: auto; /*mover el boton a la derecha*/
+    justify-content: flex-end;
+    margin-right: 980px;
+    margin-top: 15px;
+}
+
+.inicio-button { 
+    background-color: rgb(243, 7, 7);
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    padding: 10px 7px;
+    border-radius: 5px;
+    margin-left: 9px;
+}
+
+.historia-button { 
+    background-color: rgb(243, 7, 7);
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    padding: 10px 7px;
+    border-radius: 5px;
+}
+
+.fotografias-button { 
+    background-color: rgb(243, 7, 7);
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    padding: 10px 3px;
+    border-radius: 5px;
+}
+
+.contacto-button {
+    background-color: rgb(243, 7, 7);
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    padding: 10px 1px;
+    border-radius: 5px;
+    margin-left: 1px;
+}
+
+
+.urg {
+    color: #f0f0f0;
+    margin-top: -35px;
+    margin-left: 980px; /* Agrega un margen a la derecha para mover el texto hacia la derecha */
+    text-align: right;
+    display: inline-block; /* Hace que el enlace se muestre en línea con la imagen */
+    vertical-align: middle; /* Alinea verticalmente el enlace con la imagen */
+}
+
+.urg img.cel {
+    display: inline-block; /* Hace que la imagen se muestre en línea con el texto */
+    vertical-align: middle; /* Alinea verticalmente la imagen con el texto */
+    width: 20px;
+    margin-right: 125px;
+    margin-top: -25px;
+}
+
+.urg a {
+    display: inline-block; /* Hace que el enlace se muestre en línea con la imagen */
+    vertical-align: middle; /* Alinea verticalmente el enlace con la imagen */
+    margin-top: -45px;
+    margin-right: 10px;
+}
+
+h1 {
+   text-align: center;
+    font-family: sans-serif;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.tabla {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin: 0 auto; /* Centrar la tabla */
+    cursor: pointer;
+    background-attachment: fixed;
+}
+
+/* Estilos para las celdas de cabecera */
+.tabla th, .tabla td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #cc1a1a;
+    border: 1px solid #ccc;
+}
+
+/* Estilos alternativos para filas */
+.tabla tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.tabla tr:hover {
+    background-color: #af1a1a;
+}
+
+footer {
+    cursor: pointer;
+    background-color: #070707;
+    text-align: left;
+    color: rgb(107, 103, 103);
+    margin-top: 20px;
+    /*que tan lejo esta el pie de pagina*/
+}
+.footer-imagen {
+    width: 45px;
+}
+
+.text-footer{
+    margin-left: 370px;
+}
