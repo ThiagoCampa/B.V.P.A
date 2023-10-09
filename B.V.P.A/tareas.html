@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acta B.V.P.A</title>
+    <link rel="icon" href="imagenes/logo.ico">
+    <link rel="stylesheet" href="/css/tareas.css">
+    <script src="/js/tareas.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-page">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="imagenes/307012885_412945027643846_1977464355303931383_n - copia.png" class="logo"
+                        alt="logo"></a>
+            </div>
+            <div class="frase-header">
+                <p>Sacrificio, Valor y Abnegación</p>
+            </div>
+        </div>
+
+        <div class="navbar">
+            <div class="consultar">
+                <p>Consultar:</p>
+            </div>
+            <div class="botones">
+                <a href="index.html">
+                    <class="nav-item"><button class="inicio-button">Inicio</button>
+                </a>
+                <div class="urg">
+                    <img src="imagenes/png-transparent-phone-call-logo-sketch-telephone-mobile-phones-computer-icons-logo-telephone-miscellaneous-text-hand-thumbnail.png"
+                        class="cel" alt="foto">
+                    <a>Urgencias: 3469-691535</a>
+                </div>
+            </div>
+    </header>
+
+    <div class="list roundBorder">
+        <div class="date">
+            <div class="dateRight">
+                <div id="dateNumber"></div>
+                <div>
+                    <div id="dateMonth"></div>
+                    <div id="dateYear"></div>
+                </div>
+            </div>
+            <div id="dateText"></div>
+        </div>
+        <form onsubmit="addNewTask(event)" >
+            <input type="text" name="taskText" autocomplete="off" placeholder="Nueva tarea" class="roundBorder">
+            <button type="submit" class="addTaskButton">+</button>
+            <button type="button" class="orderButton roundBorder" onclick="renderOrderedTasks()">Ordenar</button>
+        </form>
+        <div id="tasksContainer"></div>
+    </div>
+
+    <footer>
+        <table>
+            <tr>
+                <td>
+                    <img src="imagenes/307012885_412945027643846_1977464355303931383_n - copia.png"
+                        class="footer-imagen" alt="logo">
+                </td>
+                <td>
+                    <footer>
+                        <div class="text-footer">
+                            <p>
+                                Al usar este sitio usted acepta los Términos y Condiciones.
+                            </p>
+                        </div>
+                        </footerr>
+                </td>
+            </tr>
+        </table>
+    </footer>
+</body>
+</html>
